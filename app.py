@@ -95,7 +95,7 @@ def main():
     # Показываем картинку
     try:
         image = Image.open(q["image"])
-        st.image(image, width=700) # Подпись под картинкой
+        st.image(image, width=500) # Подпись под картинкой
     except:
         st.warning("(картинка не загружена)", icon="⚠️")
 
